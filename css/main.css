@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 body{
+    font-family: 'Roboto mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -57,4 +60,32 @@ nav .profile-link{
 nav .profile-link a{
     color: black;
     border-bottom: 1px solid black;
+}
+.main-container{
+    display: grid;
+    width: 100%;
+    height: 620px;
+    grid-template-rows: (2, 320px);
+    background-image: url(../assets/img/Cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-container--title{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Roboto mono', monospace;
+    letter-spacing: 10px;
+    color: white;
+}
+.main-container--buttom{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.main-container--buttom button{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #47cfac;
+    border: none;
 }
