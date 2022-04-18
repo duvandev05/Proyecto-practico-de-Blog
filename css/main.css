@@ -197,3 +197,19 @@ footer p{
 .contact-main-container img{
     width: 100px;
 }
+
+.profile-main-container{
+    width: 100%;
+    height: auto;
+    background-color: #cdd2da;
+}
+.profile-main-container .profile-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    column-gap: 50px;
+    padding: 60px 0 40px;
+}
+.profile-main-container .profile-main-conatiner-img img{
+    width: 100%;
+}
