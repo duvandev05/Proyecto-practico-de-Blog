@@ -115,7 +115,7 @@ nav .profile-link a{
     width: 85%;
 }
 .blogs-news-info-container{
-grid-column: 2;
+    grid-column: 2;
 }
 .blogs-news-info-container p{
     margin-bottom: 35px;
@@ -198,9 +198,8 @@ footer p{
     width: 100px;
 }
 
-.profile-main-container{
-    width: 100%;
-    height: auto;
+.profile-main-container .profile-main-hello{
+    display: grid;
     background-color: #cdd2da;
 }
 .profile-main-container .profile-main{
@@ -208,8 +207,18 @@ footer p{
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     column-gap: 50px;
-    padding: 60px 0 40px;
-}
+    padding: 60px 0 50px;
+}   
 .profile-main-container .profile-main-conatiner-img img{
     width: 100%;
+}
+.profile-main-container-text h3{
+    text-align: center;
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.profile-main-container-text .profile-main-proyect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
 }
